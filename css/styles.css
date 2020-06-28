@@ -1,0 +1,220 @@
+body{
+    height:2190px;
+}
+
+#title{
+    background-color:#ff4c68;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    font-family: 'Srisakdi', cursive;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.nav{
+    padding:0 0 40px;
+}
+
+.nav-item{
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size:1.2rem;
+    font-weight: 400;
+}
+
+.container{
+    padding: 3px 15px;
+}
+
+.phone-img{
+    transform: rotate(25deg);
+    width: 60%;
+    height: 90%;
+    position: relative;
+    left: 110px;
+    top:30px;
+}
+
+.btns{
+    display:inline;
+    padding-right: 20px;
+}
+
+.add{
+    padding-right: 2rem;
+}
+
+
+
+/* feature */
+
+.frs{
+    color:#ea8172;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+/* .icon{
+    padding-bottom: .5rem;
+    color:#ea8172;
+} */
+
+.frs:hover{
+    color: #ff4c68;
+}
+
+.frs p{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Cinzel', serif; */
+    color:#8f8f8f
+}
+
+#features{
+    background-color: #fff; 
+}
+
+/* testimonial */
+
+#testimonials{
+    background-color:#ea8172;
+    padding-bottom: 20px;
+    text-align: center;
+    height:391px;
+    line-height: 1.5rem;
+}
+
+#testimonials em{
+    display:block;
+}
+
+.gh{
+    margin:auto;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+.di{
+    border-radius: 20px;
+}
+
+/* press */
+
+#press{
+    background-color:#ea8172;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.pi{
+    position: relative;
+    top:50px;
+    padding-left: 80px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display:inline-block;
+    text-align:center;
+}
+
+.pi1{
+    padding-top: 45px;
+}
+
+.pi2{
+    padding-top: 45px;
+}
+
+.pi3{
+    padding-top: 5px;
+}
+
+/* pricing */
+
+
+#pricing{
+    margin: 30px 50px;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+#pricing p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-header{
+    background-color:#8f8f8f;
+}
+
+.cd1{
+    padding: 3% 2%;
+}
+
+#pricing h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.75rem;
+}
+
+/* second */
+
+#second{
+    position: relative;
+    z-index: 1;
+    bottom:150px;
+}
+
+
+/* css media query breakpoints */
+
+@media (max-width:900px){
+    .phone-img{
+        transform: rotate(0);
+    }
+}
+
+/* cta */
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+}
+
+.ctaf{
+    font-size:45px;
+    padding:10px 90px;
+}
+
+.btns{
+    margin:10px 20px;
+}
+
+/* footer */
+
+#footer{
+    background-color:#fff;
+    text-align: center;
+    margin: 7% 15% 0%;
+}
+
+#footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+
+.fi{
+    margin:10px 10px;
+}
